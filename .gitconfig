@@ -1,0 +1,26 @@
+[include]
+  path = ~/Documents/.gitconfig
+  
+[includeIf "gitdir:~/Documents/KonnectCraft/"]
+  path = ~/Documents/KonnectCraft/.gitconfig
+
+[includeIf "gitdir:~/Documents/MercantileCloud/"]
+  path = ~/Documents/MercantileCloud/.gitconfig
+
+[alias]
+	br = branch
+	st = status
+	ci = commit
+	co = checkout
+  sw = switch
+	sts = stash
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[maintenance]
+	repo = /home/prototype/Documents/node/pomodoro
+[gpg]
+	format = ssh
+[user]
+	signingkey = /PATH/TO/.SSH/KEY.PUB

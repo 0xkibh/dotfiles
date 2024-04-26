@@ -116,4 +116,3 @@ if ! shopt -oq posix; then
   fi
 fi
 . "$HOME/.cargo/env"
-alias config='/usr/bin/git --git-dir=/home/prototype/.cfg/ --work-tree=/home/prototype'
