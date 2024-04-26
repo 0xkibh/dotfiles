@@ -23,4 +23,6 @@
 [gpg]
 	format = ssh
 [user]
-	signingkey = /PATH/TO/.SSH/KEY.PUB
+	signingkey = /home/prototype/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
