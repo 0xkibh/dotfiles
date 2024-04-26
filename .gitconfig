@@ -22,7 +22,7 @@
 	repo = /home/prototype/Documents/node/pomodoro
 [gpg]
 	format = ssh
-[user]
-	signingkey = /home/prototype/.ssh/id_ed25519.pub
 [commit]
 	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/prototype/.ssh/allowed_signers
